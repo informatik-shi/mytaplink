@@ -2,3 +2,36 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #F7F7F7;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.page-wrapper {
+    max-width: 375px;
+    margin: auto;
+    border-radius: 20px;
+    background: #F4F4F4;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.25);
+    
+}
+.header {
+    color: #FFF;
+    padding: 40px 42px 145px;
+    border-radius: 20px 20px 90px 90px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.30) 100%), url('../img/header-bj.png') no-repeat center / cover;
+
+}
+
+.hello {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.hello-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
